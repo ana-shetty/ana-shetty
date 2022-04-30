@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Header Area */
+.header-area {
+    width: 100%;
+    min-height: 100vh;
+    color: #f1f1f1;
+    background: linear-gradient(0deg, rgba(26, 25, 25, 0.9), rgba(27, 26, 26, 0.9)), url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-logo {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+}
+
+.main-logo img {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.welcome-area {
+    width: 98vw;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.welcome-area p {
+    font-size: 1.2rem;
+    margin-top: 12px;
+    text-transform: capitalize;
+}
+
+.ppi-download-btn a {
+    color: #f1f1f1;
+    font-weight: 500;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 22px;
+    border: 1px solid #acacac;
+    text-transform: capitalize;
+}
+
+.ppi-download-btn a:hover {
+    background-color: #f1f1f1;
+    color: #222;
+}
+
+/* About Area */
+.about-area {
+    color: #f1f1f1;
+    background: linear-gradient(45deg, #967c77, #9b3b4c, #c6a364)
+}
+
+.about-area img {
+    width: 300px;
+    height: 300px;
+}
+
+.about-area p {
+    font-size: 18px;
+}
+
+.about-text-area a {
+    color: #ffc107;
+    border-bottom: 1px solid;
+}
+
+/* PPI btn */
+.ppi-btn {
+    text-align: center;
+}
+
+.ppi-btn a {
+    font-size: 18px;
+    padding: 18px 22px;
+    color: #222;
+    background-color: #f7f7f7;
+    box-shadow: 0 1px 16px 2px #181818;
+}
+
+.about-text-area a:hover,
+.footer-area a:hover {
+    color: #ff5722;
+}
+
+/* My Gallery */
+.my-gallery {
+    background-color: #f1f1f1;
+}
+
+.gallery-item-box {
+    border-bottom: 1px solid #dedede;
+    box-shadow: rgb(204 219 232) 3px 3px 6px 0px inset, rgb(255 255 255 / 50%) -3px -3px 6px 1px inset;
+}
+
+.gallery-item-box img {
+    width: 64px;
+    height: 64px;
+}
+
+.gallery-item-box p {
+    font-weight: 400;
+}
+
+.gallery-item-box .ppi-download-btn a {
+    color: #222;
+    font-weight: 400;
+    border: 1px solid #a1a1a1;
+}
+
+.gallery-item-box .ppi-download-btn a:hover {
+    background-color: #222;
+    color: #f1f1f1;
+}
+
+.my-gallery .shopping-btn {
+    background-color: #222;
+    color: #f1f1f1;
+}
+
+.my-gallery .shopping-btn:hover {
+    background-color: transparent;
+    color: #222;
+}
+
+/* My Collections */
+.item-box {
+    overflow: hidden;
+    border-bottom: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    box-shadow: rgb(204 219 232) 3px 3px 6px 0px inset, rgb(255 255 255 / 50%) -3px -3px 6px 1px inset;
+}
+
+.item-box:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+.row-no-1 {
+    min-height: 300px;
+}
+
+.row-no-2 {
+    min-height: 492px;
+}
+
+.row-no-3 {
+    min-height: 430px;
+}
+
+.row-no-5 {
+    min-height: 315px;
+}
+
+.item-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.row-no-2 img {
+    width: auto;
+    height: 280px;
+    display: block;
+    margin: auto;
+}
+
+.row-no-3 img {
+    width: auto;
+    height: 290px;
+    display: block;
+    margin: auto;
+}
+
+.item-box h4 a {
+    color: #666;
+    display: block;
+    margin-top: 22px;
+    font-size: 1.1rem;
+    line-height: 1.4em;
+}
+
+.item-box h4 a:hover {
+    color: #ff5722;
+}
+
+.shopping-btn {
+    color: #222;
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: 400;
+    border: 1px solid #222;
+    text-transform: capitalize;
+}
+
+.shopping-btn:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Footer Area */
+.footer-area {
+    background: #222;
+    color: #f1f1f1;
+}
+
+.footer-area a {
+    color: #ffc107;
+}
+
+.footer-area .shopping-btn {
+    border: 1px solid #acacac;
+    padding: 8px 16px;
+}
